@@ -1,0 +1,42 @@
+body{
+    background-color:burlywood ;
+}
+#container{
+    background-color: bisque;
+    width: 800px;
+    max-width: 800px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap:10px;
+}
+div{
+    max-width: 100px;
+    width: 50%;
+}
+img{
+    max-width: 300px;
+    width: 50%;
+}
+    
+.doboz{
+      padding:10px;  
+}
+        
+    
+
+
+@media sreen and (max-width: 600px){
+    body{
+        background-color: aquamarine;
+
+    }
+    #container{
+        max-width: 100px;
+        width:100%;
+        font-size: 6vw;
+    }
+    doboz{
+        height: 100pt;
+    }
+}
